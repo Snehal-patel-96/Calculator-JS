@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx tailwindcss -i style.css -o tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snehal-patel-96/Calculator-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snehal-patel-96/Calculator-JS/issues"
+  },
+  "homepage": "https://github.com/Snehal-patel-96/Calculator-JS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
