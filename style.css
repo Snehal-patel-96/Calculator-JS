@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-3xl text-center py-6;
+  }
+  .btn-number {
+    @apply bg-gray-100 hover:bg-gray-50;
+  }
+  .btn-operator {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+  .btn-ac,
+  .btn-delete {
+    @apply bg-rose-500 text-white hover:bg-rose-600;
+  }
+}
