@@ -1093,6 +1093,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:w-2\/3 {
     width: 66.666667%;
   }
+
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
